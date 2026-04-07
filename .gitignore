@@ -13,3 +13,5 @@ wheels/
 AGENT.md
 .python-version
 *Zone.Identifier
+*20newsbydate*
+*archive*

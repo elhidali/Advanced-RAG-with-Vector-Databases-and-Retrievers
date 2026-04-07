@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "chromadb>=1.5.5",
+    "faiss-cpu>=1.13.2",
     "httpx>=0.28.1",
     "langchain>=0.2.1",
     "langchain-community>=0.2.1",
@@ -25,4 +26,7 @@ dependencies = [
     "python-dotenv>=1.2.2",
     "rank-bm25==0.2.2",
     "sentence-transformers>=2.7.0",
+    "setuptools<82",
+    "tensorflow>=2.21.0",
+    "tensorflow-hub>=0.16.1",
 ]
